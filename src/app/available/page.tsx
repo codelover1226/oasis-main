@@ -100,15 +100,21 @@ export default function available() {
   return(
     <>
     <div className="bg-main-bg w-full">
-      <div className="w-full h-[600px]" style={{ backgroundImage: "url('/img/oasis_exterior1.jpeg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
-      
+      <div className="bg-main-bg w-full">
+        <div className="w-full h-[600px] bg-black opacity-70" style={{ backgroundImage: "url('/img/oasis_exterior1.jpeg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        </div>
+        <div className="bg-black opacity-40 absolute top-0 left-0 right-0 h-[600px]">
+
+        </div>
+        <div className="relative h-[80px] w-full text-center items-center mb-0">
+          <p className="relative text-white z-20 top-6 font-spartan sans-serif tracking-[2px]">Noble LIC 1st Place Winner <span><a className="underline cursor-pointer">2024 AIA Design Awards</a></span> </p>
+          <div className="absolute top-0 right-0 bottom-0 left-0 opacity-80 bg-black"></div>      
+        </div>
       </div>
-      <div className="relative h-[80px] w-full text-center items-center mb-0">
-        <p className="relative text-white z-20 top-6 font-spartan sans-serif tracking-[2px]">Noble LIC 1st Place Winner <span><a className="underline cursor-pointer">2024 AIA Design Awards</a></span> </p>
-        <div className="absolute top-0 right-0 bottom-0 left-0 opacity-80 bg-black"></div>      
-      </div>
-      <div className="my-16 sm:my-24 text-center">
-        <p className="uppercase text-5xl font-nunito-sans text-red font-[400]">AVAILABLE HOMES</p>
+      <div className="absolute top-[350px] left-0 right-0">
+        <p className="font-ivy-mode text-5xl text-white text-center font-bold mx-6 sm:mx-auto">
+          Available
+        </p>
       </div>
       <div className="w-full max-w-[1440px] mx-auto hidden lg:block">
         <table className="w-full min-w-max table-auto text-left text-3xl ">
