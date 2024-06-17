@@ -31,7 +31,7 @@ export default function Header () {
             <a className='font-semibold text-xl cursor-pointer uppercase font-ivy-mode'> TEAM</a>
           </div>
           <div className='mx-6 border-b-[1px] text-center py-3 mt-2'>
-            <a className='font-semibold text-xl cursor-pointer uppercase font-ivy-mode'> PRESS</a>
+            <a className='font-semibold text-xl cursor-pointer uppercase font-ivy-mode'> News</a>
           </div>
           <div className='mx-6 border-b-[1px] text-center py-3 mt-2'>
             <a className='font-semibold text-xl cursor-pointer uppercase font-ivy-mode'> AVAILABLE HOMES </a>
@@ -53,15 +53,7 @@ export default function Header () {
                   after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0
                   "
               >
-                Long Island City
-              </a>
-              <a 
-                href="#" 
-                className=" relative
-                  text-[12px] font-bold cursor-pointer tracking-[2px] uppercase font-spartan
-                  after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0"
-              >
-                press
+                Amenities
               </a>
               <a 
                 href="#" 
@@ -77,10 +69,27 @@ export default function Header () {
                   text-[12px] font-bold cursor-pointer tracking-[2px] uppercase font-spartan
                   after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0"
               >
+                residences
+              </a>
+              
+              <a 
+                href="#" 
+                className=" relative
+                  text-[12px] font-bold cursor-pointer tracking-[2px] uppercase font-spartan
+                  after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0"
+              >
+                news
+              </a>
+              <a 
+                href="#" 
+                className=" relative
+                  text-[12px] font-bold cursor-pointer tracking-[2px] uppercase font-spartan p-2 rounded-full
+                  after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0 bg-footer-banner after:hover:h-0"
+              >
                 Schedule viewing
               </a>
             </div>
-            <div className='mx-8 content-center cursor-pointer' onClick={() => {setIsOpen(true)}}>
+            <div className='mx-8 content-center cursor-pointer sm:hidden' onClick={() => {setIsOpen(true)}}>
               <div className='w-[18px] h-[2px] bg-black my-1'></div>
               <div className='w-[18px] h-[2px] bg-black my-1'></div>
               <div className='w-[18px] h-[2px] bg-black my-1'></div>
