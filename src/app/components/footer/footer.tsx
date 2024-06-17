@@ -4,6 +4,13 @@ import React from 'react'
 import Image from 'next/image'
 import home from './../../assets/image/items/home.png'
 import logo from './../../assets/image/Oasis Final Logo.png'
+import Email from './../../assets/image/social media icon/Email.png'
+import Linkedin from './../../assets/image/social media icon/LinkedIn.png'
+import FaceBook from './../../assets/image/social media icon/Facebook.png'
+import Instagram from './../../assets/image/social media icon/Instagram.png'
+import Youtube from './../../assets/image/social media icon/Youtube.png'
+import Twitter from './../../assets/image/social media icon/Twitter.png'
+import Phone from './../../assets/image/social media icon/phone.png'
 export default function Footer () {
   return(
     <>
@@ -23,23 +30,29 @@ export default function Footer () {
             <a><p className='relative w-[115px] mt-3 border-b-[2px] text-gray-600 text-xl link after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0'>Fair Housing</p> </a>
             <a><p className='relative w-[48px] mt-3 border-b-[2px] text-gray-600 text-xl link after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0'>Legal</p> </a>
           </div>
-          <div className='mt-6 sm:mt-12'>
+          <div className='mt-6 sm:mt-12 flex items-center space-x-5'>
             <a className='cursor-pointer'><Image alt='' src={home} width={60}/></a>
+            <a className='cursor-pointer'><Image src={Phone} width={40} alt='' /></a>
           </div>
 
           <div className='mt-6 sm:mt-20 sm:flex w-full'>
             <div className='w-full flex items-center space-x-5'>
               <Image src={logo} alt='' width={80} />
-              {/* <p className='text-xl'>
-                Real Estate Website Design by &nbsp;
-                <span>
-                  <a>
-                    <span className='relative w-[160px] mt-3 border-b-[2px] text-gray-600 text-xl link after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0'>
-                      Luxury Presence
-                    </span>
-                  </a>
-                </span>
-              </p> */}
+              <a href='' className='after:hover:h-0'>
+                <Image src={Email} alt='' width={20}/>
+              </a>
+              <a href='' className='after:hover:h-0'>
+                <Image src={Instagram} alt='' width={20}/>
+              </a>
+              <a href='' className='after:hover:h-0'>
+                <Image src={FaceBook} alt='' width={20}/>
+              </a>
+              <a href='' className='after:hover:h-0'>
+                <Image src={Twitter} alt='' width={20}/>
+              </a>
+              <a href='' className='after:hover:h-0'>
+                <Image src={Youtube} alt='' width={20}/>
+              </a>
             </div>
             <div className='w-full flex items-center space-x-5'>
               <p className='text-xl'>

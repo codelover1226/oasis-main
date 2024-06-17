@@ -30,32 +30,32 @@ export default function City() {
       </div>
       <div className=" w-full flex">
         <div className="max-w-[1440px] mx-auto">
-          <div className="w-full sm:flex sm:mt-12 sm:space-x-16">
+          <div className="w-full sm:flex sm:mt-12 sm:space-x-16 mt-24">
             <div className="text-left my-6">
-              <Image alt="" src={team1} width={100} className="px-3 sm:px-0"/>
+              <Image alt="" src={team1} width={100} className="px-3 sm:px-0 mb-24"/>
               <p className="text-lg my-6 font-ivy-mode px-3 sm:px-0 font-semibold">RESIDENTS LOUNGE</p>
               <p className="text-[16px] font-spartan px-3 sm:px-0">Noble’s glass-enclosed Residents Lounge boasts high ceilings, custom millwork, a Porcelanosa catering kitchen, and a large smart screen. Ideal for daytime remote work or evening entertainment, the Noble’s lounge is the perfect extension of your home.</p>
             </div>
             <div className="text-left my-6">
-              <Image alt="" src={team2} width={100} className="px-3 sm:px-0"/>
+              <Image alt="" src={team2} width={100} className="px-3 sm:px-0 mb-24"/>
               <p className="text-lg my-6 font-ivy-mode px-3 sm:px-0 font-semibold">ROOF TERRACES</p>
               <p className="text-[16px] font-spartan px-3 sm:px-0">Noble residents enjoy outdoor grilling and panoramic Manhattan skyline views from the 4,200-sq-ft landscaped roof deck. The 2nd floor also offers three common open spaces totaling more than 3,000 sq ft, an oasis for Noble residents.</p>
             </div>
             <div className="text-left my-6">
-              <Image alt="" src={team3} width={100} className="px-3 sm:px-0"/>
+              <Image alt="" src={team3} width={240} className="px-3 sm:px-0 mb-12"/>
               <p className="text-lg my-6 font-ivy-mode px-3 sm:px-0 font-semibold">FITNESS CENTER</p>
               <p className="text-[16px] font-spartan px-3 sm:px-0">The fitness center consists of indoor and outdoor areas. The indoor gym includes the latest cardio and strength equipment by Octane, True and Hudson Steel. You can bring your workout outdoors to the 997-sq-ft fitness terrace.</p>
             </div>
           </div>
-          <div className="sm:w-[60%] sm:flex sm:mt-12 mx-auto">
+          <div className="sm:w-[60%] sm:flex sm:mt-12 mx-auto mb-24">
             <div className="text-left my-6 sm:mx-8">
-              <Image alt="" src={team4} width={100} className="px-3 sm:px-0"/>
+              <Image alt="" src={team4} width={300} className="px-3 sm:px-0 mb-24"/>
               <p className="text-lg my-6 font-ivy-mode px-3 sm:px-0 font-semibold">LATCH</p>
               <p className="text-[16px] font-spartan px-3 sm:px-0">Latch enhances your quality of living by incorporating features such as keyless entry for residential units, remote intercom access, and secure
       package room entry.</p>
             </div>
             <div className="text-left my-6 sm:mx-8">
-              <Image alt="" src={team5} width={100} className="px-3 sm:px-0"/>
+              <Image alt="" src={team5} width={100} className="px-3 sm:px-0 mb-24"/>
               <p className="text-lg my-6 font-ivy-mode px-3 sm:px-0 font-semibold">PERSONAL STORAGE</p>
               <p className="text-[16px] font-spartan px-3 sm:px-0">With your own onsite storage locker, you can keep your personal belongings tucked safely away. </p>
             </div>
