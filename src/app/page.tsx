@@ -10,6 +10,8 @@ import fitness from './assets/image/items/fitness.png';
 import meeting from './assets/image/items/meeting.png';
 import beach from './assets/image/items/beach.png';
 import mfc from './assets/image/items/mfc.png';
+import Carousel from './components/Carousel';
+import CustomVideo from "./components/CustomVideo";
 
 export default function Home() {
   return (
@@ -26,11 +28,11 @@ export default function Home() {
         <p className="relative text-white z-20 top-6 font-spartan sans-serif tracking-[2px]">Noble LIC 1st Place Winner <span><a className="underline cursor-pointer">2024 AIA Design Awards</a></span> </p>
         <div className="absolute top-0 right-0 bottom-0 left-0 opacity-80 bg-black"></div>      
       </div>
-      <div className="relative w-full flex lg:py-24 bg-main-bg mt-0">
-        <div className="max-w-[1280px] mx-0 sm:mx-auto">
+      <div className="relative w-full flex flex-col lg:py-24 bg-main-bg mt-0">
+        <div className="max-w-[1280px] mx-0 sm:mx-auto mx-auto">
           <div className="w-full lg:flex">
             <div className="w-full">
-             <Image src={Banner2} alt="" className="w-full"/>
+            <Carousel />
             </div>
             <div className="w-full px-6 lg:pl-24">
               <p className="uppercase text-4xl font-bold font-ivy-mode mb-6 mt-12 lg:mt-0 text-center sm:text-left">A COLLECTION OF FORTY-SIX BOUTIQUE CONDOMINIUM HOMES IN LONG ISLAND CITY</p>
@@ -38,7 +40,9 @@ export default function Home() {
               <p className="text-xl font-spartan my-6 text-justify">Continuing the theme of contemporary elegance, the lobby has been designed with carefully selected porcelain wall and floor tiles. Each time you step inside, you will be delighted with your decision to make Noble LIC your home. </p>
             </div>
           </div>
-
+          <div className="text-center mt-16 mb-12 text-4xl font-ivy-mode">
+           <CustomVideo />
+          </div>
           <div className="text-center mt-16 mb-12 text-4xl font-ivy-mode">
           ELEVATED AMENITIES
           </div>
