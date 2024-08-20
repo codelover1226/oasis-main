@@ -1,6 +1,6 @@
 "use-client";
 import React from "react";
-const video_url =  '/birds.mp4';
+const video_url =  '/oasis.mp4';
 
 
 interface CustomVideoProps {}
