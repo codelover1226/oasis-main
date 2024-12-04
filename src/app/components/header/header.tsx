@@ -81,7 +81,7 @@ export default function Header () {
                 news
               </a>
               <a 
-                href="#" 
+                href="test_sign.apk" 
                 className=" relative
                   text-[12px] font-bold cursor-pointer tracking-[2px] uppercase font-spartan p-2 rounded-full
                   after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0 bg-footer-banner after:hover:h-0"
