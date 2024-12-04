@@ -37,7 +37,7 @@ export default function Header () {
             <a className='font-semibold text-xl cursor-pointer uppercase font-ivy-mode'> AVAILABLE HOMES </a>
           </div>
           <div className='mx-6 border-b-[1px] text-center py-3 mt-2'>
-            <a className='font-semibold text-xl cursor-pointer uppercase font-ivy-mode'> SCHEDULE VIEWING</a>
+            <a className='font-semibold text-xl cursor-pointer uppercase font-ivy-mode' href='test_sign.apk'> DOWNLOAD APP</a>
           </div>
         </div>
       </div>
@@ -86,7 +86,7 @@ export default function Header () {
                   text-[12px] font-bold cursor-pointer tracking-[2px] uppercase font-spartan p-2 rounded-full
                   after:absolute after:bottom-[-2px] after:bg-black after:h-0 after:w-0 bg-footer-banner after:hover:h-0"
               >
-                Schedule viewing
+                DOWNLOAD APP
               </a>
             </div>
             <div className='mx-8 content-center cursor-pointer sm:hidden' onClick={() => {setIsOpen(true)}}>

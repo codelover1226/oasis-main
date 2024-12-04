@@ -32,89 +32,89 @@ export default function City () {
   const [prev, setPrev] = useState<string | null> ('Image17')
   const [next, setNext] = useState<string | null> ('Image2')
   const [currentIndex, setCurrentIndex] = React.useState(0);
-  const images: ImageData[] = [
-    {
-      title: "Image1",
-      description: "Description for Image1",
-      src: Image1,
-    },
-    {
-      title: "Image2",
-      description: "Description for Image2",
-      src: Image2,
-    },
-    ,
-    {
-      title: "Image3",
-      description: "Description for Image3",
-      src: Image3,
-    },
-    {
-      title: "Image4",
-      description: "Description for Image4",
-      src: Image4,
-    },
-    {
-      title: "Image5",
-      description: "Description for Image5",
-      src: Image5,
-    },
-    {
-      title: "Image6",
-      description: "Description for Image6",
-      src: Image6,
-    },
-    {
-      title: "Image7",
-      description: "Description for Image7",
-      src: Image7,
-    },
-    {
-      title: "Image8",
-      description: "Description for Image8",
-      src: Image8,
-    },
-    {
-      title: "Image9",
-      description: "Description for Image9",
-      src: Image9,
-    },
-    {
-      title: "Image10",
-      description: "Description for Image10",
-      src: Image10,
-    },
-    {
-      title: "Image11",
-      description: "Description for Image11",
-      src: Image11,
-    },
-    {
-      title: "Image12",
-      description: "Description for Image12",
-      src: Image12,
-    },
-    {
-      title: "Image13",
-      description: "Description for Image13",
-      src: Image13,
-    },
-    {
-      title: "Image14",
-      description: "Description for Image14",
-      src: Image14,
-    },
-    {
-      title: "Image15",
-      description: "Description for Image15",
-      src: Image15,
-    },
-    {
-      title: "Image16",
-      description: "Description for Image16",
-      src: Image16,
-    }
-  ];
+  // const images: ImageData[] = [
+  //   {
+  //     title: "Image1",
+  //     description: "Description for Image1",
+  //     src: Image1,
+  //   },
+  //   {
+  //     title: "Image2",
+  //     description: "Description for Image2",
+  //     src: Image2,
+  //   },
+  //   ,
+  //   {
+  //     title: "Image3",
+  //     description: "Description for Image3",
+  //     src: Image3,
+  //   },
+  //   {
+  //     title: "Image4",
+  //     description: "Description for Image4",
+  //     src: Image4,
+  //   },
+  //   {
+  //     title: "Image5",
+  //     description: "Description for Image5",
+  //     src: Image5,
+  //   },
+  //   {
+  //     title: "Image6",
+  //     description: "Description for Image6",
+  //     src: Image6,
+  //   },
+  //   {
+  //     title: "Image7",
+  //     description: "Description for Image7",
+  //     src: Image7,
+  //   },
+  //   {
+  //     title: "Image8",
+  //     description: "Description for Image8",
+  //     src: Image8,
+  //   },
+  //   {
+  //     title: "Image9",
+  //     description: "Description for Image9",
+  //     src: Image9,
+  //   },
+  //   {
+  //     title: "Image10",
+  //     description: "Description for Image10",
+  //     src: Image10,
+  //   },
+  //   {
+  //     title: "Image11",
+  //     description: "Description for Image11",
+  //     src: Image11,
+  //   },
+  //   {
+  //     title: "Image12",
+  //     description: "Description for Image12",
+  //     src: Image12,
+  //   },
+  //   {
+  //     title: "Image13",
+  //     description: "Description for Image13",
+  //     src: Image13,
+  //   },
+  //   {
+  //     title: "Image14",
+  //     description: "Description for Image14",
+  //     src: Image14,
+  //   },
+  //   {
+  //     title: "Image15",
+  //     description: "Description for Image15",
+  //     src: Image15,
+  //   },
+  //   {
+  //     title: "Image16",
+  //     description: "Description for Image16",
+  //     src: Image16,
+  //   }
+  // ];
   return (
     <>
       {
